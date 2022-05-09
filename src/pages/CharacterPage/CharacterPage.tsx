@@ -46,7 +46,7 @@ const CharacterPage = () => {
             <div>
               <span>Type: </span>
               <span className="info">
-                {currentCharacter?.type}
+                {currentCharacter?.type === '' ? '-' : currentCharacter?.type}
               </span>
             </div>
             <div>

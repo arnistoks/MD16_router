@@ -7,9 +7,9 @@ import {
 import Logo from './data/logo.png';
 import Up from './data/up.png';
 import HomePage from './pages/HomePage/HomePage';
-import CharactersPage from './pages/Characters/CharactersPage';
+import CharactersPage from './pages/CharactersPage/CharactersPage';
 import CharacterPage from './pages/CharacterPage/CharacterPage';
-import AboutPage from './pages/About/AboutPage';
+import AboutPage from './pages/AboutPage/AboutPage';
 import Page404 from './pages/Page404/Page404';
 
 const App = () => (
