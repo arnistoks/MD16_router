@@ -9,7 +9,6 @@ import Up from './data/up.png';
 import HomePage from './pages/HomePage/HomePage';
 import CharactersPage from './pages/Characters/CharactersPage';
 import CharacterPage from './pages/CharacterPage/CharacterPage';
-import EpisodesPage from './pages/Episodes/EpisodesPage';
 import AboutPage from './pages/About/AboutPage';
 import Page404 from './pages/Page404/Page404';
 
@@ -30,7 +29,6 @@ const App = () => (
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/characters" element={<CharactersPage />} />
-        <Route path="/episodes" element={<EpisodesPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/characters/:id" element={<CharacterPage />} />
         <Route path="*" element={<Page404 />} />
